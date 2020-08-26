@@ -1,0 +1,264 @@
+/* color: #212121; основной цвет текста (черный) */
+/* color: #757575; цвет почты и телефона хедер и цвет вторичного текста(серый) */
+/* color: rgba(255, 255, 255, 0.6); цвет почты и телефона футер(серый)*/
+/* color: #2196F3; синий акцент */
+/* background: #2F303A; фон первой секции (темно-серый) */
+/* background: #F5F4FA; */
+
+:root {
+  /* color-parameters */
+  --color-black: #212121;
+  --color-white: #ffffff;
+  --color-grey: #757575;
+  --color-blue: #2196f3;
+  --color-background-grey: #2f303a;
+  --color-background-our: #f5f4fa;
+  --color-grey-rgba: rgba(255, 255, 255, 0.6);
+
+  /* font-nav-parameters */
+  --nav-font-style: normal;
+  --nav-font-weight: 500;
+  --nav-font-size: 14px;
+  --nav-line-height: 1.14;
+  --nav-letter-spacing: 0.02em;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-white);
+}
+body ul {
+  list-style: none;
+  font-style: normal;
+}
+
+.main-title {
+  display: none;
+}
+
+.link {
+  columns: #000000;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color-blue);
+}
+
+/* start navigation block */
+.nav-light {
+  color: var(--color-blue);
+}
+
+.nav-color {
+  color: var(--color-grey);
+}
+
+.nav-size {
+  font-style: var(--nav-font-style);
+  font-weight: var(--nav-font-weight);
+  font-size: var(--nav-font-size);
+  line-height: var(--nav-line-height);
+  letter-spacing: var(--nav-letter-spacing);
+}
+/* END navigation block */
+/* -----------
+-----------
+-----------
+----------- */
+/* start logo css */
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+
+.logo-left {
+  color: var(--color-blue);
+}
+
+.logo-right {
+  color: var(--color-black);
+}
+
+.logo-footer {
+  color: var(--color-white);
+}
+/* END logo css */
+/* -----------
+-----------
+-----------
+----------- */
+/* Start main section */
+.main-section {
+  background-color: var(--color-background-grey);
+}
+
+.main-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.main-link {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--color-white);
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* END main sections */
+/* -----------
+-----------
+-----------
+----------- */
+
+/* Start section description */
+
+.section-desc h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--color-black);
+}
+
+.desc-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--color-grey);
+}
+
+/* END section description */
+
+.text-about {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-black);
+}
+
+.team-section {
+  background-color: var(--color-background-our);
+}
+
+.team-section h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-black);
+}
+.team-section p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--color-grey);
+}
+
+.footer {
+  background-color: var(--color-background-grey);
+}
+.footer-link p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--color-white);
+}
+
+.footer-link a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--color-grey-rgba);
+}
+
+.team-frame {
+  background-color: #ffffff;
+}
+
+/* +
+
+PORTFOLIO.HTML
+
+*/
+
+.button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-black);
+  background: var(--color-background-our);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+}
+
+.project-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: var(--color-black);
+}
+
+.project-job {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: var(--color-grey);
+}
