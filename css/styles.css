@@ -43,7 +43,7 @@ body ul {
   display: none;
 }
 
-.border {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -160,6 +160,7 @@ body ul {
 } */
 .logo-footer {
   color: var(--color-white);
+  margin-bottom: 20px;
 }
 /* END logo css */
 /* -----------
@@ -183,9 +184,8 @@ body ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-white);
-  padding-bottom: 30px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 30;
 }
 
 .main-button {
@@ -241,10 +241,9 @@ body ul {
 }
 .desc-content .item h3 {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 .desc-content .item p {
-  padding-top: 10px;
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
@@ -271,12 +270,12 @@ body ul {
   letter-spacing: 0.03em;
   color: var(--color-black);
   margin-block-start: 0px;
-  margin-block-end: 0px;
+  margin-bottom: 50px;
 }
 
 .about-image {
   display: flex;
-  margin-top: 50px;
+
   margin-bottom: 94px;
 }
 .about-image .item + .item {
@@ -317,8 +316,6 @@ body ul {
 .team-list {
   display: flex;
   padding-inline-start: 0px;
-  padding-top: 50px;
-  padding-bottom: 94px;
 }
 
 .team-list .item + .item {
@@ -341,7 +338,7 @@ body ul {
   letter-spacing: 0.03em;
 
   color: var(--color-white);
-  padding-top: 20px;
+  margin-bottom: 9px;
 }
 
 .footer-link a {
@@ -352,17 +349,18 @@ body ul {
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--color-grey-rgba);
+  margin-top: 9px;
 }
 .logo-text {
   margin-block-start: 0;
-  margin-block-end: 0;
+  margin-bottom: 20px;
 }
 
 .footer-address {
   padding-inline-start: 0px;
 }
-.footer-address .link {
-  padding-top: 9px;
+.footer-address .li:first-child {
+  margin-bottom: 9px;
 }
 
 .team-frame {
